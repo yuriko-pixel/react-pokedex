@@ -1,43 +1,266 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Pokemon";
+  src:url("../src/pokmon/Pokemon\ Solid.ttf") format("truetype"); 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-size: 20px;
+  color: #F8CC40;
+  text-align: center
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.load {
+  color: red;
 }
 
 .flex {
   display: flex;
   flex-wrap: wrap;
 }
+
+.pokemon {
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 2px 2px 4px gray;
+}
+
+.pokemon:hover {
+  opacity: 0.5;
+}
+
+.pokeimgcon {
+  background: #F5F5F5;
+  height: 150px;
+}
+
+.pokeimage {
+  margin-top: 30px;
+  
+}
+
+.pokename {
+  margin-top: 10px;
+  font-family: "Pokemon";
+  font-size: 20px;
+  color: gray;
+  /* text-shadow:0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F; */
+}
+
+.eachpokename {
+  margin-top: 10px;
+  font-family: "Pokemon";
+  font-size: 80px;
+  text-shadow:0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F;
+  margin-bottom: 15px;
+}
+
+.pkcontainer {
+  width: 1300px;
+  height: 1000px;
+  margin: 10px auto;
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px grey;
+  background: #f7f6f5;
+}
+
+.pokecontainer {
+  width: 1300px;
+  height: 330px;
+}
+
+.pokeball {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.img1 {
+  margin-left:  220px;
+}
+
+.titlecontainer {
+  padding: 30px 250px;
+  background: red;
+}
+
+.hometitle {
+  font-size: 30px;
+  color: yellow;
+  font-family: "Pokemon";
+  font-size: 80px;
+  text-shadow:0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F,0 0 3px #45567F;
+}
+
+
+.homecontainer {
+  padding: 50px;
+}
+
+.eachpokeimg {
+  width: 380px;
+  height: 380px;
+  padding-top: 20px;
+}
+
+.typebx {
+  width: 400px;
+  height: 300px;
+  margin-left: 180px;
+  padding: 20px;
+  background: #d4d9df;;
+  border: solid 1px #eee9e6;
+}
+
+.type {
+  margin: 20px 0;
+}
+
+.types {
+  padding-left: 10px;
+  font-size: 27px;
+  color: gray;
+  text-align: left;
+}
+
+.typelist {
+  font-size: 25px;
+  color: gray;
+}
+
+.abilitylist {
+  margin-top: 5px;
+  margin-right: 5px;
+  font-size: 25px;
+  color: gray;
+}
+
+.abilities {
+  font-size: 25px;
+  color: gray;
+  margin: 5px;
+  text-align: left;
+}
+
+.silver {
+  width: 1300px;
+  height: 350px;
+  background: silver;
+  border-radius: 30px;
+}
+
+.crimson {
+  width: 1300px;
+  height: 350px;
+  background: crimson;
+  border-radius: 30px;
+}
+
+.royalblue {
+  width: 1300px;
+  height: 350px;
+  background: royalblue;
+  border-radius: 30px;
+}
+
+.yellow {
+  width: 1300px;
+  height: 350px;
+  background: yellow;
+  border-radius: 30px;
+}
+
+.green {
+  width: 1300px;
+  height: 350px;
+  background: #37a34a;
+  border-radius: 30px;
+}
+
+.darkslateblue {
+  width: 1300px;
+  height: 350px;
+  background: darkslateblue;
+  border-radius: 30px;
+}
+
+.slategray {
+  width: 1300px;
+  height: 350px;
+  background: slategray;
+  border-radius: 30px;
+}
+
+.coffee {
+  width: 1300px;
+  height: 350px;
+  background: #7b5544;
+  border-radius: 30px;
+}
+
+.maroon {
+  width: 1300px;
+  height: 350px;
+  background: #6a1917;
+  border-radius: 30px;
+}
+
+.franboise {
+  width: 1300px;
+  height: 350px;
+  background: #9a0d7c;
+  border-radius: 30px;
+}
+
+.navyblue {
+  width: 1300px;
+  height: 350px;
+  background: #202f55;
+  border-radius: 30px;
+}
+
+.wistaria {
+  width: 1300px;
+  height: 350px;
+  background: #8d93c8;
+  border-radius: 30px;
+}
+
+.rosepink {
+  width: 1300px;
+  height: 350px;
+  background: #f19ca7;
+  border-radius: 30px;
+}
+
+.pigeonblue {
+  width: 1300px;
+  height: 350px;
+  background: #88b5d3;
+  border-radius: 30px;
+}
+
+.ultramarin {
+  width: 1300px;
+  height: 350px;
+  background: #434da2;
+  border-radius: 30px;
+}
+
+.babyblue {
+  width: 1300px;
+  height: 350px;
+  background: #a2c2e6;
+  border-radius: 30px;
+}
+
+.lightsteelblue {
+  width: 1300px;
+  height: 350px;
+  background: lightsteelblue;
+  border-radius: 30px;
+}
+
