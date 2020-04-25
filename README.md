@@ -1,3 +1,14 @@
+[Here](https://react-pokedex-special.netlify.app/) is the Demo site of this project. 
+
+## How to Play
+
+All of the available Pokemon lists are shown in the Home page.
+
+When you click the pokemon image which you want to check more, then it will jumps to the detailed page of pokemon.
+
+It also allows you to type Pokemon name direct to the web URL, such as "/pikachu" then it will lead you Pikachu detail page.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
